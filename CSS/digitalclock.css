@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-image: url(../All_img_js/thu.jpeg); */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+#container{
+    background-color: rgba(79, 188, 99, 0.457);
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 10px 10px 10px -10px -10px 10px black;
+    border-radius: 100%;
+    border: 4px solid rgb(240, 90, 90);
+    z-index: 5;
+}
+#chaget{
+    width: 340px;
+    height: 60px;
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    text-shadow: 2px 2px 3px black;
+    background-image: linear-gradient(75deg,rgba(255, 0, 0, 0.779),rgba(0, 128, 0, 0.715),rgba(255, 255, 0, 0.756),rgba(0, 0, 255, 0.751));
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    bottom: 25px;
+}
+#Time,#Date,#Day,#Sec{
+    color: rgba(255, 255, 255, 0.785);
+    /* background-image: radial-gradient(75deg,red,yellow,blue); */
+    /* font-size: 4vw; */
+    text-shadow: 5px 5px 5px black;
+}
+#Time{
+    font-size: 4vw;
+}
+#Date{
+    font-size: 5vw;
+}
+#Day{
+    font-size: 4vw;
+}#Sec{
+    position: absolute;
+    color: rgba(255, 0, 255, 0.653);
+    font-size: 25vw;
+}
